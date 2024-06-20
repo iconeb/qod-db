@@ -12,7 +12,7 @@ COPY 3_genres.sql /tmp/
 COPY 4_quotes_sm.sql /tmp/
 
 # Put our script to create db and tables in the init path
-COPY run.sh /usr/share/container-scripts/mysql/init/
+# COPY run.sh /usr/share/container-scripts/mysql/init/
 
 # Expose the correct port for MariaDB
 EXPOSE 3306
